@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #c8792a33;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid #c8792a;
+  outline-offset: 2px;
+}
+
+@layer components {
+  .input {
+    @apply w-full border border-line rounded-md px-3 py-2 text-sm bg-paper focus:outline-none focus:border-signal focus:ring-1 focus:ring-signal transition-colors;
+  }
+}
