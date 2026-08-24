@@ -21,9 +21,7 @@ export default function App() {
           ))}
         </nav>
         <div className="mt-auto pt-8 text-xs text-pending leading-relaxed">
-          Internal tool · CPC Management
           <br />
-          AI Enablement pilot
         </div>
       </aside>
 
