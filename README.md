@@ -1,7 +1,6 @@
 # AI Workflow Discovery Toolkit
 
-A working simulation of the CPC Management AI Enablement Intern workflow: run a
-structured 1:1 discovery session with an employee, have Claude score each task
+Run a structured 1:1 discovery session with an employee, have Claude score each task
 for automation impact/effort, manage the resulting backlog, and generate a
 one-page implementation report.
 
